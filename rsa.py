@@ -2,6 +2,7 @@
 import sys
 import math
 
+
 # Functiom to check if a number is prim
 def is_prime(n):
     if n <= 1:
@@ -16,6 +17,7 @@ def is_prime(n):
             return False
         i += 6
     return True
+
 
 # Read the input file
 filename = sys.argv[1]
